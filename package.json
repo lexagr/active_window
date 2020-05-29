@@ -1,0 +1,14 @@
+{
+  "name": "active_window",
+  "version": "0.0.1",
+  "description": "Get current active window",
+  "main": "./lib/load.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "lexagr",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0"
+  }
+}
