@@ -55,6 +55,8 @@ void getActiveWindow(const v8::FunctionCallbackInfo<v8::Value>& args){
 void module_init(v8::Local<v8::Object> exports){
     NODE_SET_METHOD(exports, "getActiveWindow", getActiveWindow);
 }
+#else
+void module_init(v8::Local<v8::Object> exports){}
+#endif
 
 NODE_MODULE(winapi, module_init);
-#endif
