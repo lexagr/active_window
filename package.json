@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Get current active window",
   "main": "./lib/load.js",
+  "types": "./active_window.d.ts",
   "scripts": {
     "test": "node ./test.js"
   },

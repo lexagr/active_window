@@ -7,8 +7,5 @@
             ],
             "cflags": [ "-std=c++14" ]
         }
-    ],
-    "variables": {
-        "target": "8.3.0"
-    }
+    ]
 }
